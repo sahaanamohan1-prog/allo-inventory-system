@@ -55,7 +55,7 @@ export async function POST(req: NextRequest) {
       return { ok: true, reservation };
     });
 
-    if (!result.ok) {
+    if (!result.ok || !result.reservation) {
       return NextResponse.json({ error: result.error }, { status: result.status });
     }
 
