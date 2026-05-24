@@ -11,7 +11,7 @@
   "dependencies": {
     "@prisma/client": "^5.13.0",
     "@upstash/redis": "^1.31.0",
-    "next": "15.1.0",
+    "next": "14.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "zod": "^3.23.6"
